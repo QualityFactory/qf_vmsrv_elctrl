@@ -1,0 +1,7 @@
+*.
+*~
+.*
+puppet/modules/*
+!puppet/modules/.gitkeep
+!.gitignore
+
