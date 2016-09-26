@@ -1,0 +1,19 @@
+FORGE
+  remote: https://forgeapi.puppetlabs.com
+  specs:
+    biemond-wildfly (0.5.3)
+      puppetlabs-stdlib (>= 3.2.0)
+    puppetlabs-stdlib (4.12.0)
+
+GIT
+  remote: git://github.com/qualityfactory/qf_mdsrv_elctrl.git
+  ref: master
+  sha: 1eb10554d98ac0e1196d0fcb0d26c1c59319338d
+  specs:
+    qf_mdsrv_elctrl (0.0.1)
+      biemond-wildfly (>= 0.5.3)
+      puppetlabs-stdlib (>= 1.0.0)
+
+DEPENDENCIES
+  qf_mdsrv_elctrl (>= 0)
+
